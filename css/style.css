@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Top navbar */
+.topnav {
+  overflow: hidden;
+  background-color: #1a237e; /* Deixa o background em tom azul */
+}
+
+/* Personaliza os nomes dentro do navbar */
+.topnav a {
+  float: left;
+  color: #fafafa; /* Letra na cor branco */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Muda de cor quando passa a seta do mouse */
+.topnav a:hover {
+  background-color: #fafafa; /* Letra na cor branco */
+  color: #212121; /* Letra na cor preta  */
+}
+
+/* Espaço de busca */
+input[type=text] {
+  width: 130px;  /* Largura do espaço */
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #ffffff; /* espaço de busca na cor branco */
+  background-image: url('searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px; /* cima baixo esquerda direita*/
+  -webkit-transition: width 0.4 ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 20%;
+}
