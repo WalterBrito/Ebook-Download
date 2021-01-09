@@ -21,25 +21,26 @@ body {
 
 /* Muda de cor quando passa a seta do mouse */
 .topnav a:hover {
-  background-color: #fafafa; /* Letra na cor branco */
+  background-color: #fafafa; /* Letra na cor cinza */
   color: #212121; /* Letra na cor preta  */
 }
 
-/* Espaço de busca */
+/* Barra de busca */
 input[type=text] {
-  width: 130px;  /* Largura do espaço */
+  width: 100%;  /* Largura do espaço */
   box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
+  border: 3px ridge #ffffff;
+  border-radius: 5px;
   font-size: 16px;
   background-color: #ffffff; /* espaço de busca na cor branco */
-  background-image: url('searchicon.png');
   background-position: 10px 10px;
   background-repeat: no-repeat;
-  padding: 12px 20px 12px 40px; /* cima baixo esquerda direita*/
-  -webkit-transition: width 0.4 ease-in-out;
+  padding: 10px 20px 10px 20px; /* 1° top 2° right  3° bottom 4° left*/;
 }
 
-input[type=text]:focus {
-  width: 20%;
+
+/* Coloca a barra de busca no lado direito da tela */
+.pull-right {
+  float: right;
+  margin-right: 25px; /* Afasta a barra de busca do canto direito */
 }
