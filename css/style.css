@@ -6,7 +6,7 @@ body {
 /* Top navbar */
 .topnav {
   overflow: hidden;
-  background-color: #1a237e; /* Deixa o background em tom azul */
+  background-color: #03A9F4; /* Deixa o background em tom azul */
 }
 
 /* Personaliza os nomes dentro do navbar */
@@ -29,7 +29,7 @@ body {
 input[type=text] {
   width: 100%;  /* Largura do espaço */
   box-sizing: border-box;
-  border: 3px ridge #ffffff;
+  border: 3px ridge #E0E0E0;
   border-radius: 5px;
   font-size: 16px;
   background-color: #ffffff; /* espaço de busca na cor branco */
@@ -43,4 +43,14 @@ input[type=text] {
 .pull-right {
   float: right;
   margin-right: 25px; /* Afasta a barra de busca do canto direito */
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #03A9F4; /* Deixa o background em tom azul */
+  text-align: center;
+  color: #FAFAFA;
 }
